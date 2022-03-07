@@ -25,6 +25,10 @@ notes.post("/notes", (req, res) => {
     res.error("Error adding note");
   }
 });
-// EXTRA credit, delete notes
+
+// DELETE Route
+notes.delete(`/notes/:id`, (req, res) => {
+  console.log(req.body);
+});
 
 module.exports = notes;

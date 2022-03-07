@@ -8,5 +8,15 @@
     "title": "Test Title NOTE ADDED",
     "text": "Test text NOTE ADDED",
     "id": "49459a20-69f0-4f6b-a0d8-632ef7827d38"
+  },
+  {
+    "title": "Adding new note",
+    "text": "here's a new note",
+    "id": "0d8918ce-d9b7-4564-bba1-f535d26501e8"
+  },
+  {
+    "title": "One more new note",
+    "text": "Here's another test note!",
+    "id": "a83abec0-9d69-4676-9e91-ffbd89c7e823"
   }
 ]
