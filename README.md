@@ -10,4 +10,4 @@ This is a note taking application using express.js on the back end to save and r
 https://github.com/Jasonsburke90/Note-Taking-App
 
 \* Here is the link to the app deployed on Heroku
-https://jsb-note-taking-app.herokuapp.com/notes
+https://jsb-note-taking-app.herokuapp.com/
