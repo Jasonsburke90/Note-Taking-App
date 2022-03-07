@@ -10,13 +10,13 @@ notes.get("/notes", (req, res) =>
 notes.post("/notes", (req, res) => {
   console.log(req.body);
 
-  const { title, text } = req.body;
+  const { title, text, id } = req.body;
 
   if (req.body) {
     const newNote = {
       title,
       text,
-      tip_id: uuidv4(),
+      id: uuidv4(),
     };
 
     readAndAppend(newNote, "./db/db.json");
